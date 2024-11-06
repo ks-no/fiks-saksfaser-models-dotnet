@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.idea
+
+##
+## For dette prosjektet
+## 
+Schema
+KS.Fiks.Saksfaser.Models.V1/Models/

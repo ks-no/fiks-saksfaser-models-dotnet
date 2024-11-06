@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>KS.Fiks.Saksfaser.Models.V1</Title>
+        <Authors>KS Digital</Authors>
+        <Company>KS Digital</Company>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageIcon>KS.png</PackageIcon>
+        <RepositoryUrl>https://github.com/ks-no/fiks-saksfaser-models-dotnet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>FIKS</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>KS.Fiks.Saksfaser.Models.1</PackageId>
+        <Description>C# klasser som følger json-skjema spesifisert i https://github.com/ks-no/fiks-saksfaser-specification.</Description>
+        <PackageProjectUrl>https://github.com/ks-no/fiks-saksfaser-models-dotnet</PackageProjectUrl>
+        <AssemblyName>KS.Fiks.Saksfaser.Models.V1</AssemblyName>
+        <RootNamespace>KS.Fiks.Saksfaser.Models.V1</RootNamespace>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>fiks-io-strongly-named-key.snk</AssemblyOriginatorKeyFile>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+</Project>
