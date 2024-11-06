@@ -47,7 +47,6 @@ pipeline {
               git branch: params.triggerbranch,
               url: 'https://github.com/ks-no/fiks-saksfaser-specification.git'
               stash(name: 'jsonSchemas', includes: 'Schema/V1/*')
-              stash(name: 'kodelister', includes: 'Schema/V1/kodelister/**/*')
               stash(name: 'meldingstyper', includes: 'Schema/V1/meldingstyper/meldingstyper.json')
             }
           }
@@ -100,7 +99,6 @@ pipeline {
           steps {
             dir("${MODELS_FOLDER}") {
               unstash 'jsonSchemas'
-              unstash 'kodelister'
               unstash 'meldingstyper'
               unstash 'models'
               sh 'dotnet restore --configfile ${NUGET_CONF}'
