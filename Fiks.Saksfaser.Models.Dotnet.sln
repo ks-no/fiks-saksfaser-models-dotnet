@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Saksfaser.Models.V1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Saksfaser.JsonModelGenerator", "KS.Fiks.Saksfaser.JsonModelGenerator\KS.Fiks.Saksfaser.JsonModelGenerator.csproj", "{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Saksfaser.Models.V1.Tests", "KS.Fiks.Saksfaser.Models.V1.Tests\KS.Fiks.Saksfaser.Models.V1.Tests.csproj", "{23329D9D-CAEB-4515-8D6B-5B790EC472DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23329D9D-CAEB-4515-8D6B-5B790EC472DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23329D9D-CAEB-4515-8D6B-5B790EC472DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23329D9D-CAEB-4515-8D6B-5B790EC472DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23329D9D-CAEB-4515-8D6B-5B790EC472DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
