@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Saksfaser.Models.V1", "KS.Fiks.Saksfaser.Models.V1\KS.Fiks.Saksfaser.Models.V1.csproj", "{DE277DC6-2377-4629-8762-B8C0D5A5EF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS.Fiks.Saksfaser.JsonModelGenerator", "KS.Fiks.Saksfaser.JsonModelGenerator\KS.Fiks.Saksfaser.JsonModelGenerator.csproj", "{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE277DC6-2377-4629-8762-B8C0D5A5EF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE277DC6-2377-4629-8762-B8C0D5A5EF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE277DC6-2377-4629-8762-B8C0D5A5EF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE277DC6-2377-4629-8762-B8C0D5A5EF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295DCBFD-1AB8-4437-94B8-B0AA79EC221E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
