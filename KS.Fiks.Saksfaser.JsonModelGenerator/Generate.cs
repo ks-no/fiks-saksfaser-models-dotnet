@@ -7,7 +7,7 @@ Generator.Generate(args[0], args[1]);
 
 static class Generator
 {
-    const string commonNamespace = "KS.Fiks.Plan.Saksfaser.V1";
+    const string commonNamespace = "KS.Fiks.Saksfaser.V1";
     const string feilmeldingSubNamespace = "feilmelding";
     const string fellesSubNamespace = "felles";
     const string namespaceSuffix = "Typer";
@@ -15,15 +15,15 @@ static class Generator
 
     private static readonly string[] fellesFilenamesSorted = new []
     {
+        "no.ks.fiks.saksfaser.v1.felles.saksnummer.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.referansedokumentfil.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.dokument.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.eksternnoekkel.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.fase.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.journalnummer.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.milepel.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.referansedokumentfil.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.referansejournalpost.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.saksjournalpostnummer.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.saksnummer.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.referansejournalpost.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.milepel.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.fase.schema.json",
     };
 
     private static IEnumerable<string>? allFellesSchemas;
