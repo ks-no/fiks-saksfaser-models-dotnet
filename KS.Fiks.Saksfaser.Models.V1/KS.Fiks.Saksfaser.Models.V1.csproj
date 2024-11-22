@@ -16,7 +16,7 @@
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <VersionPrefix>1.0.1</VersionPrefix>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>KS.Fiks.Saksfaser.Models.1</PackageId>
+        <PackageId>KS.Fiks.Saksfaser.Models.V1</PackageId>
         <Description>C# klasser som følger json-skjema spesifisert i https://github.com/ks-no/fiks-saksfaser-specification.</Description>
         <PackageProjectUrl>https://github.com/ks-no/fiks-saksfaser-models-dotnet</PackageProjectUrl>
         <AssemblyName>KS.Fiks.Saksfaser.Models.V1</AssemblyName>
