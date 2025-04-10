@@ -10,21 +10,28 @@ static class Generator
     const string commonNamespace = "KS.Fiks.Saksfaser.V1";
     const string feilmeldingSubNamespace = "feilmelding";
     const string fellesSubNamespace = "felles";
+
     const string namespaceSuffix = "Typer";
-    const string fellesNamespace = $"{commonNamespace}.{fellesSubNamespace}";
 
     private static readonly string[] fellesFilenamesSorted = new []
     {
         "no.ks.fiks.saksfaser.v1.felles.saksnummer.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.referansedokumentfil.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.dokument.schema.json",
-        "no.ks.fiks.saksfaser.v1.felles.eksternnoekkel.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.korrespondansepart.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.skjerming.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.journalnummer.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.gradering.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.referansedokumentfil.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.eksternnoekkel.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.dokumentbeskrivelse.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.saksjournalpostnummer.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.referansejournalpost.schema.json",
+        "no.ks.fiks.saksfaser.v1.felles.journalpost.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.milepel.schema.json",
         "no.ks.fiks.saksfaser.v1.felles.fase.schema.json",
     };
+
+    const string fellesNamespace = $"{commonNamespace}.{fellesSubNamespace}";
 
     private static IEnumerable<string>? allFellesSchemas;
 
